@@ -6,7 +6,7 @@
 	$params = array(
 		'get_code' => isset( $_GET['code'] ) ? $_GET['code'] : '',
 		'access_token' => $accessToken,
-		'user_id' => 'USER-ID'
+		'user_id' => '355133227'
 	);
 	$ig = new instagram_basic_display_api( $params );
 ?>
